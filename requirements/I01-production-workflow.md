@@ -71,20 +71,20 @@ We will complete most of this section together in class.
 
 By the end of the guided portion:
 
-- [ ] WSL/Linux is ready for development.
-- [ ] The project is located in the Linux filesystem under `/home/...`.
-- [ ] Git author name and email are configured.
-- [ ] The local Git repository has been initialized.
-- [ ] The default branch is named `main`.
-- [ ] The initial `README.md` has been committed locally.
-- [ ] A public `my-platform` repository exists on GitHub.
-- [ ] GitHub CLI is installed and authenticated.
-- [ ] The local repository is connected to GitHub as `origin`.
-- [ ] Local `main` has been pushed to GitHub.
-- [ ] A GitHub ruleset protects `main`.
-- [ ] The first project branch has been created.
-- [ ] The initial repository structure has been created.
-- [ ] This assignment has been copied into `requirements/I01-production-workflow.md`.
+- [-] WSL/Linux is ready for development.
+- [-] The project is located in the Linux filesystem under `/home/...`.
+- [-] Git author name and email are configured.
+- [-] The local Git repository has been initialized.
+- [-] The default branch is named `main`.
+- [-] The initial `README.md` has been committed locally.
+- [-] A public `my-platform` repository exists on GitHub.
+- [-] GitHub CLI is installed and authenticated.
+- [-] The local repository is connected to GitHub as `origin`.
+- [-] Local `main` has been pushed to GitHub.
+- [-] A GitHub ruleset protects `main`.
+- [-] The first project branch has been created.
+- [-] The initial repository structure has been created.
+- [-] This assignment has been copied into `requirements/I01-production-workflow.md`.
 
 You may refer to the course slides and setup notes for exact commands.
 
@@ -152,10 +152,10 @@ After the PR is merged:
 3. Delete the completed local branch.
 4. Delete the completed remote branch.
 
-- [ ] Verified the expected directories and files locally and reviewed the repository state before committing.
-- [ ] Pull Request 1 has been merged.
-- [ ] Local `main` has been updated.
-- [ ] The completed branch has been cleaned up.
+- [-] Verified the expected directories and files locally and reviewed the repository state before committing.
+- [-] Pull Request 1 has been merged.
+- [-] Local `main` has been updated.
+- [-] The completed branch has been cleaned up.
 
 ---
 
@@ -198,11 +198,11 @@ You do not need a separate Linux installation of VS Code. VS Code can run in Win
 
 Before committing:
 
-- [ ] Review the contents of `.gitignore`.
-- [ ] Inspect `git status`.
-- [ ] Verify that only the intended changes will be committed.
-- [ ] Commit with an appropriate descriptive message.
-- [ ] Push the branch to GitHub.
+- [-] Review the contents of `.gitignore`.
+- [-] Inspect `git status`.
+- [-] Verify that only the intended changes will be committed.
+- [-] Commit with an appropriate descriptive message.
+- [-] Push the branch to GitHub.
 
 ---
 
