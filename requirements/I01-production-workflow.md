@@ -346,10 +346,10 @@ You may use this wording directly or edit it to better describe your actual work
 
 After merging:
 
-- [ ] Reviewed the Markdown files, verified the documented repository paths, and confirmed that the README accurately reflects the current project state.
-- [ ] Pull Request 3 has been merged.
-- [ ] Local `main` has been updated.
-- [ ] The completed branch has been cleaned up.
+- [-] Reviewed the Markdown files, verified the documented repository paths, and confirmed that the README accurately reflects the current project state.
+- [-] Pull Request 3 has been merged.
+- [-] Local `main` has been updated.
+- [-] The completed branch has been cleaned up.
 
 ---
 
@@ -365,14 +365,14 @@ You do need to understand the repository you created.
 
 Be prepared to explain or demonstrate situations such as:
 
-- You return to the project a week later. How would you determine what branch you are on, whether you have uncommitted work, and what has or has not reached GitHub?
-- You accidentally commit work to your local `main`. How could you preserve the work on the correct branch and restore local `main` to the trusted remote state?
-- In `git log`, what is the difference between `HEAD`, `main`, and `origin/main`?
-- Why is the active repository under `/home/...` rather than `/mnt/c/...`?
-- Why did we create an empty GitHub repository instead of asking GitHub to initialize it with another README?
-- What protection does the GitHub `main` ruleset provide, and what mistakes can it not prevent on your local machine?
-- Why do we use branches and pull requests even when you are the only developer working on this repository?
-- Why does `.gitignore` belong in the repository rather than being configured independently on each developer's computer?
+- You return to the project a week later. How would you determine what branch you are on, whether you have uncommitted work, and what has or has not reached GitHub?  *git status*
+- You accidentally commit work to your local `main`. How could you preserve the work on the correct branch and restore local `main` to the trusted remote state? *git branch new-branch, git reset --hard HEAD~1, git checkout new-branch*
+- In `git log`, what is the difference between `HEAD`, `main`, and `origin/main`? *HEAD - the branch your local machine is currently looking at, origin/main - remote primary source of truth for the project, main - local version of remote main*
+- Why is the active repository under `/home/...` rather than `/mnt/c/...`? *makes local development act more like github actions / scripts / production workflows*
+- Why did we create an empty GitHub repository instead of asking GitHub to initialize it with another README? *because we already had a README from when we made the local client*
+- What protection does the GitHub `main` ruleset provide, and what mistakes can it not prevent on your local machine? *protects the remote main from a bad commit without a PR, doesn't protect you from committing to main locally*
+- Why do we use branches and pull requests even when you are the only developer working on this repository? *good bookkeeping*
+- Why does `.gitignore` belong in the repository rather than being configured independently on each developer's computer? *because it establishes a shared, automated baseline for the entire development team*
 
 These are not written-response questions for this assignment.
 
