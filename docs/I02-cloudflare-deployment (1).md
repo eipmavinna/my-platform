@@ -4,9 +4,9 @@ The goal of this assignment is to move your personal platform from a local React
 
 By the end of the assignment, you should have:
 
-- a React + TypeScript frontend built with Vite
-- frontend setup and build instructions documented
-- your GitHub repository connected to Cloudflare Pages
+- ~~a React + TypeScript frontend built with Vite~~
+- ~~frontend setup and build instructions documented~~
+- ~~your GitHub repository connected to Cloudflare Pages~~
 - preview deployments for feature branches / pull requests
 - `main` serving as the production branch
 - your custom domain connected to the deployed frontend
