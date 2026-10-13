@@ -135,7 +135,7 @@ Repository conventions should reduce friction rather than create unnecessary rul
 
 Evidence / verification:
 
-* Project structure introduced through PR #___
+* Project structure introduced through PR #1
 * Engineering style guide: `docs/style-guide.md`
-* Style guide introduced or updated through PR #___
+* Style guide introduced or updated through PR #3
 * Repository structure visible from the project root
