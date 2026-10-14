@@ -9,15 +9,16 @@ html {
 
 body {
   margin: 0;
-  padding: 30px;
+  padding: 0;
   background: #ffffff;
   color: #111111;
   font-family: Abadi;
 }
 
 main {
-  border: 2px solid #333333;
-  min-height: calc(100vh - 60px);
+  background: #000000;
+  border: none;
+  min-height: 100vh;
 }
 
 /* Navigation bar */
